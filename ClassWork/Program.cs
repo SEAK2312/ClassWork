@@ -3,7 +3,7 @@
     Console.Clear();
     Random r = new Random();
     int secretNumber = r.Next(1, 25);
-    Console.WriteLine("Компьютер загадал число от 1 до 10.Попробуй его угадать");
+    Console.WriteLine("Компьютер загадал число от 1 до 25. Попробуй его угадать");
     int attempts = 5;
     while (attempts > 0)
     {
